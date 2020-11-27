@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clock-effect-square {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 96vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
+.clock-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+}
+.time-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+.time-info h2 {
+  position: absolute;
+  left: -5vh;
+  top: 40%;
+  font-size: 18px;
+}
+.date-info {
+  margin-top: 4vh;
+  font-size: 32px;
+}
