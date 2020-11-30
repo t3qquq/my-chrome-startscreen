@@ -1,0 +1,19 @@
+.greeting {
+  top: 38%;
+  position: absolute;
+  font-size: 45px;
+}
+.greeting input {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.greeting input:focus {
+  outline: none;
+}
+.no-show {
+  display: none;
+}
+.show {
+  display: block;
+}

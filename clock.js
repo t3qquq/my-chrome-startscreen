@@ -1,8 +1,8 @@
 const clockContainer = document.querySelector('.clock-box');
-const clockinfo = clockContainer.querySelector('.time-info')
-const AMPM = clockinfo.querySelector('h2')
-const clocktime = clockinfo.querySelector('h1') 
-const dateInfo = clockContainer.querySelector('.date-info')
+const clockinfo = clockContainer.querySelector('.time-info');
+const AMPM = clockinfo.querySelector('h2');
+const clocktime = clockinfo.querySelector('h1'); 
+const dateInfo = clockContainer.querySelector('.date-info');
 
 function getTime(){
     const time = new Date();
@@ -55,7 +55,7 @@ function getTime(){
 }
 function init(){
     getTime();
-    setInterval(getTime, 1000)
+    setInterval(getTime, 1000);
 }
 
 init();
